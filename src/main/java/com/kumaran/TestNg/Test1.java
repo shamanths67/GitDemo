@@ -28,6 +28,9 @@ public class Test1 {
 	@Test
 	public void loginPage() {
 		System.out.println("Im the One to first");
+		System.out.println("Im the One to 1");
+		System.out.println("Im the One to 2");
+		System.out.println("Im the One to 3");
 	}
 	@Test(dependsOnMethods = "dashBoardPage")
 	public void moduleOne() {
