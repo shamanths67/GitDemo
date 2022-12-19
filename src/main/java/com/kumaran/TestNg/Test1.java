@@ -31,6 +31,9 @@ public class Test1 {
 		System.out.println("Im the One to 1");
 		System.out.println("Im the One to 2");
 		System.out.println("Im the One to 3");
+		System.out.println("Im the One to 4");
+		System.out.println("Im the One to 5");
+		System.out.println("Im the One to 6");
 	}
 	@Test(dependsOnMethods = "dashBoardPage")
 	public void moduleOne() {
