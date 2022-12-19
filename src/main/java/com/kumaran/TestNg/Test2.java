@@ -1,5 +1,6 @@
 package com.kumaran.TestNg;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class Test2 {
@@ -21,4 +22,15 @@ public class Test2 {
 		System.out.println("second2 in DB");
 		
 	}
+	@AfterTest
+	public void testLastMsg() {
+		System.out.println("project Arche, End");
+	}
+	public void testLastMsg1() {
+		System.out.println("project Arche, End");
+	}
+	public void testLastMsg3() {
+		System.out.println("project Arche, End");
+	}
+	
 }
