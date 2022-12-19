@@ -30,10 +30,7 @@ public class Test1 {
 		System.out.println("Im the One to first");
 		System.out.println("Im the One to 1");
 		System.out.println("Im the One to 2");
-		System.out.println("Im the One to 3");
-		System.out.println("Im the One to 4");
-		System.out.println("Im the One to 5");
-		System.out.println("Im the One to 6");
+		
 	}
 	@Test(dependsOnMethods = "dashBoardPage")
 	public void moduleOne() {
@@ -42,6 +39,9 @@ public class Test1 {
 	@Test(dependsOnMethods = "moduleOne")
 	public void moduleSecond() {
 		System.out.println("second in DB");
+		System.out.println("second1 in DB");
+		System.out.println("second2 in DB");
+		
 	}
 	@BeforeTest
 	public void testMsg() {
