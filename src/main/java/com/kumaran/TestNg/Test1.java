@@ -36,6 +36,9 @@ public class Test1 {
 	@Test(dependsOnMethods = "moduleOne")
 	public void moduleSecond() {
 		System.out.println("second in DB");
+		System.out.println("second1 in DB");
+		System.out.println("second2 in DB");
+		
 	}
 	@BeforeTest
 	public void testMsg() {
